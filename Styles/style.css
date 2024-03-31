@@ -1,0 +1,27 @@
+header,footer,#city
+{
+    background: #1d3557;
+}
+.box-st span
+{
+margin-left: 9px;
+}
+.btn-box button
+{
+    min-width: 45%;
+background: red !important;
+}
+.output-box
+{
+    min-height: 175px;
+}
+.box-inp button
+{
+   border-top-right-radius: 5px !important;
+   border-bottom-right-radius: 5px !important;
+}
+@media only screen and (max-width:550px){
+    .btn-box button{
+        min-width: 90%;
+    }
+}

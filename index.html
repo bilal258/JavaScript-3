@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap 5.3 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="/Styles/style.css">
+    <title>JS-assignment 3</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Assignments</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Chapter 15 - 20</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container py-5">
+            <h3 class="text-center border-bottom pb-3 border-black  ">Chapter # 15 - 20 | Arrays: It's Methods & for loops</h3>
+            <div class="row">
+                <!-- Input -->
+                <div class="col-12 col-md-6 text-center  mt-5">
+                    <h4>Input</h4>
+                    <div class="box-inp d-flex border rounded-1 py-4 px-4">
+                        <input type="text" id="input" class="form-control rounded-0 bg-transparent my-1" placeholder="Type your text here">
+                        <button class="btn btn-outline-secondary rounded-0 my-1" onclick="clearbtn()">Clear</button>
+                    </div>
+                </div>
+                <!-- Original String -->
+                <div class=" col-12 col-md-6 text-center mt-5">
+                    <h4 class="">Original String</h4>
+                    <div id="city" class="box-st text-white py-4 px-4 rounded-1">
+                        <span> 1) Faisalabad </span>
+                        <span> 2) Lahore </span>
+                        <span> 3) Karachi </span>
+                        <span> 4) Islamabad </span>
+                        <span>5) peshawar </span>
+                        <span> 6) Shekhupura </span>
+                        <span> 7) Kashmir </span>
+                    </div>
+                </div>
+                <!-- Buttons -->
+                <div class="col-12 col-md-6 text-center mt-5">
+                    <h4>Buttons</h4>
+                    <div class="btn-box border rounded-1 py-4 px-2">
+                <button class="btn  btn-danger text-capitalize mb-1" onclick="Alert()">Simple Alert</button>
+                <button class="btn btn-danger text-capitalize  mb-1" onclick="printMYName()">print my name</button>
+                <button class="btn btn-danger text-capitalize  mb-1" onclick="printallcities()">print all cities</button>
+                <button class="btn btn-danger text-capitalize  mb-1" onclick="addcitylist()">add your city in list</button>
+                <button class="btn btn-danger text-capitalize  mb-1" onclick="generatetable()">generate table</button>
+                    </div>
+                </div>
+                <!-- Output / Result -->
+                <div class="col-12 col-md-6 text-center mt-5">
+                    <h4>Output / Result</h4>
+                    <div class="output-box border rounded-1  py-5 " id="Result">
+                   
+                    </div>
+                    <button class="btn btn-outline-secondary rounded-1 mt-3" onclick="clearBTN()">Clear Output</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="text-center text-white">
+        <p class="py-2 mb-0">&copy; 2024. Assignment by Bilal</p>
+    </footer>
+    <!-- bootstrap 5.3 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- custom js -->
+    <script src="/JS/script.js"></script>
+</body>
+
+</html
